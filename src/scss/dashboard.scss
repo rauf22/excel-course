@@ -14,6 +14,7 @@
     justify-content: center;
     background: #fff;
     box-shadow: 0 2px 5px 2px rgba(60, 64, 67, 0.15);
+    z-index: 1000;
   }
 
   &__new {
@@ -50,7 +51,6 @@
 
   &__table {
     padding: 1rem;
-    
   }
 
   &__list-header {
@@ -78,7 +78,7 @@
       background: #e6f4ea;
       border-radius: 25px;
     }
-   
+
     a {
       text-decoration: none;
       cursor: pointer;
@@ -86,9 +86,8 @@
       font-size: 14px;
 
       &:hover {
-      text-decoration: underline;
-    }
-
+        text-decoration: underline;
+      }
     }
   }
 

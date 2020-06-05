@@ -1,6 +1,6 @@
 import {range} from '@core/utils'
 
-export function shouldResuze(event) {
+export function shouldResize(event) {
   return event.target.dataset.resize
 }
 
